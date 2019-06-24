@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: lightblue;
+}
+
+div .navMenu {
+    background: #ffffff;
+    overflow: hidden;
+}
+
+.nameHeader {
+    float: left;
+    text-align: center;
+    padding: 10px;
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 17%;
+    background: #4aaaa5;
+    height: 80px;
+}
+
+.navTabAll {
+    margin-right: 17%;
+}
+
+.navTab {
+    background: #ffffff;
+    float: right;
+    padding: 10px;
+    text-align: center;
+    font-size: 28px;
+    color: #4aaaa5;
+}
+
+.aboutMe {
+    margin: auto;
+    background: #ffffff;
+    width: 960px;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+.bioHeader {
+    color: #4aaaa5;
+
+}
+
+.aboutImg {
+    float: left;
+    margin: 30px 30px 30px 0px;
+}
+
+.bioContent {
+    font-size: 28px;
+    line-height: 1.5;
+}
