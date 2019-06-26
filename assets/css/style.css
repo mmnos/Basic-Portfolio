@@ -1,6 +1,6 @@
 html, body {
     margin: 0;
-    background: url('./assets/images/interlaced.png') lightblue;
+    background: url('./assets/images/interlaced.png') gray;
     height: 100%;
 }
 
@@ -75,7 +75,7 @@ hr {
     height: 1px;
 }
 
-.aboutMe {
+.mainContent {
     margin: auto;
     background: #ffffff;
     width: 960px;
@@ -85,7 +85,8 @@ hr {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.bioHeader {
+.bioHeader,
+.contactHeader {
     color: #4aaaa5;
 }
 
@@ -97,4 +98,27 @@ hr {
 .bioContent {
     font-size: 20px;
     line-height: 1.5;
+}
+
+.nameBox,
+.emailBox,
+.messageBox {
+    width: 98.5%;
+    margin: 10px 0px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.messageBox {
+    height: 200px;
+}
+
+.submitButton {
+    height: 30px;
+    width: 100px;
+    color: #ffffff;
+    background: #4aaaa5;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
 }
