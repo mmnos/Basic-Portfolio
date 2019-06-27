@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en-us ">
+<html lang="en-us">
 
     <head>
 
@@ -16,12 +16,12 @@
 
             <div class="mainHeader"> <!-- div for header -->
 
-                <h1 class="myName">Michael Nos</h1>
+                <a href="index.html"><h1 class="myName">Michael Nos</h1></a>
     
                 <div class="allTabs">
-                    <h2 class="aboutTab">About</h2>
-                    <h2 class="portfolioTab">Portfolio</h2>
-                    <h2 class="contactTab">Contact</h2>
+                    <a href="contact.html"><span class="contactTab">Contact</span></a>
+                    <a href="portfolio.html"><span class="portfolioTab">Portfolio</span></a>
+                    <a href="index.html"><span class="aboutTab">About</span></a>
                 </div>
     
             </div>
@@ -34,18 +34,16 @@
 
                 <form>
 
-                    Name <br>
+                    <label for="nameBox">Name</label>
                     <input type="text" name="Full Name" placeholder="John Smith" class="nameBox">
 
-                    Email <br>
+                    <label for="emailBox">Email</label>
                     <input type="text" name="Email" placeholder="example@gmail.com" class="emailBox">
 
-                    Message <br>
-                    <input type="text" name="Message" class="messageBox">
+                    <label for="contact">Message</label>
+                    <textarea class="messageBox" rows="4" cols="125" placeholder="Type your message here..."></textarea>
 
-                    <br>
-
-                    <input type="submit" value="Submit" class="submitButton">
+                    <a href="#"><input type="submit" value="Submit" class="submitButton"></a>
 
                 </form>
 
